@@ -1,6 +1,6 @@
 # book_genre_classifier
-URL: https://book-classify-api.herokuapp.com/api/classify
-Availabel Genres:
+URL: https://book-classify-api.herokuapp.com/api/classify < br/>
+Genres:
 'digital electronics and logic design':0
 'Data Structures':1, 
 'Computer Networks':2, 
