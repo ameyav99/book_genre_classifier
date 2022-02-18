@@ -21,7 +21,7 @@ with open('tokenizer.pickle', 'rb') as handle:
 def classify():
     content = request.json
     errors = []
-    title = request.form.get('title')
+    title = request.get_json.get('title')
 
     if len(title)<1 :
         errors.append("Missing Title")
